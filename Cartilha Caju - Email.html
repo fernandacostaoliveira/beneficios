@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Cartilha Caju Benefícios — ibiobi 2026</title>
+<!--[if mso]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<![endif]-->
+<style>
+@font-face { font-family:'SerifaStd'; src:url('uploads/serifa/SerifaStd-Black.otf') format('opentype'); font-weight:900; }
+@font-face { font-family:'SerifaStd'; src:url('uploads/serifa/SerifaStd-Roman.otf') format('opentype'); font-weight:400; }
+@font-face { font-family:'SerifaStd'; src:url('uploads/serifa/SerifaStd-Light.otf') format('opentype'); font-weight:300; }
+@font-face { font-family:'VerdanaLocal'; src:url('uploads/verdana/verdana-digiscream-normal.ttf') format('truetype'); font-weight:400; }
+@font-face { font-family:'VerdanaLocal'; src:url('uploads/verdana/verdana-bold-3.ttf') format('truetype'); font-weight:700; }
+:root{
+  --marrom:#6d3528;--azul:#8cc6e7;--laranja:#ff931e;
+  --papel:#F5F0E6;--branco:#ffffff;--texto:#2a1208;
+  --azul-light:#e8f4fb;--laranja-light:#fff4e8;
+}
+*{box-sizing:border-box;}
+body{margin:0;padding:0;background:#F5F0E6;font-family:Verdana,Geneva,sans-serif;color:#2a1208;line-height:1.6;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+table{border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;}
+img{border:0;height:auto;line-height:100%;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;}
+
+.email-nav{background:#8cc6e7;padding:20px;text-align:center;}
+.email-nav img{height:26px;display:inline-block;vertical-align:middle;}
+
+/* HERO */
+.hero{background:var(--azul);padding:80px 48px 72px;text-align:center;position:relative;overflow:hidden;}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:40px;background:var(--papel);clip-path:ellipse(55% 100% at 50% 100%);}
+.hero-tag{display:inline-block;background:var(--marrom);color:var(--branco);font-size:11px;font-weight:700;letter-spacing:.14em;padding:8px 20px;border-radius:100px;margin-bottom:28px;font-family:'VerdanaLocal',Verdana,sans-serif;}
+.hero h1{font-family:'SerifaStd',serif;font-size:clamp(48px,7vw,84px);font-weight:900;color:var(--marrom);line-height:1.0;letter-spacing:-.02em;margin-bottom:24px;}
+.hero h1 span{color:var(--branco);}
+.hero-sub{font-size:17px;color:var(--marrom);opacity:.85;max-width:520px;margin:0 auto 36px;line-height:1.65;}
+
+/* KEY MESSAGE */
+.key-message{background:var(--marrom);color:var(--branco);padding:40px 48px;text-align:center;}
+.key-message h2{font-family:'SerifaStd',serif;font-size:clamp(28px,4vw,44px);font-weight:900;line-height:1.15;}
+.key-message h2 span{color:var(--laranja);}
+.key-message p{font-size:16px;opacity:.8;margin-top:16px;max-width:560px;margin-left:auto;margin-right:auto;line-height:1.65;}
+
+.wrapper{max-width:800px;margin:0 auto;padding:0 24px;}
+
+.section-header{padding:64px 0 32px;}
+.section-eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--laranja);font-weight:700;margin-bottom:12px;}
+.section-title{font-family:'SerifaStd',serif;font-size:clamp(32px,5vw,48px);font-weight:900;color:var(--marrom);line-height:1.1;letter-spacing:-.01em;}
+.section-divider{height:3px;width:64px;background:var(--azul);margin-top:20px;}
+
+/* ONE CARD EXPLAINER */
+.one-card{background:var(--marrom);color:var(--branco);border-radius:16px;padding:40px 44px;margin-bottom:24px;position:relative;overflow:hidden;}
+.one-card::before{content:'';position:absolute;top:-40px;right:-40px;width:200px;height:200px;border-radius:50%;background:var(--azul);opacity:.15;}
+.one-card h3{font-family:'SerifaStd',serif;font-size:28px;font-weight:900;color:var(--azul);margin-bottom:16px;}
+.one-card p{font-size:15px;line-height:1.75;opacity:.9;}
+
+/* CATEGORIES GRID */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;margin:24px 0;}
+.cat-card{background:var(--branco);border-radius:12px;padding:24px;border-top:4px solid var(--azul);box-shadow:0 2px 12px rgba(109,53,40,.06);transition:transform .15s;}
+.cat-card:hover{transform:translateY(-2px);}
+.cat-emoji{font-size:32px;margin-bottom:10px;}
+.cat-name{font-family:'SerifaStd',serif;font-size:18px;font-weight:900;color:var(--marrom);margin-bottom:6px;}
+.cat-desc{font-size:12px;line-height:1.6;color:var(--texto);opacity:.75;}
+
+/* HOW IT WORKS */
+.steps{display:flex;flex-direction:column;gap:0;margin:24px 0;}
+.step{display:flex;gap:24px;padding:24px 0;border-bottom:1px solid rgba(109,53,40,.1);}
+.step:last-child{border-bottom:none;}
+.step-num{width:44px;height:44px;border-radius:50%;background:var(--azul);color:var(--marrom);font-family:'SerifaStd',serif;font-size:20px;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.step-content h4{font-family:'SerifaStd',serif;font-size:18px;font-weight:900;color:var(--marrom);margin-bottom:6px;}
+.step-content p{font-size:13px;line-height:1.65;opacity:.8;}
+
+/* HIGHLIGHT */
+.highlight{border-radius:0 8px 8px 0;padding:20px 24px;margin:20px 0;}
+.highlight.azul{background:var(--azul-light);border-left:4px solid var(--azul);}
+.highlight.laranja{background:var(--laranja-light);border-left:4px solid var(--laranja);}
+.highlight p{font-size:14px;line-height:1.7;}
+.highlight strong{color:var(--marrom);}
+
+/* CARD VISUAL */
+.card-visual{background:linear-gradient(135deg, var(--azul) 0%, #b8dff0 100%);border-radius:16px;padding:36px;display:flex;flex-direction:column;gap:16px;margin:24px 0;}
+.caju-card{background:var(--marrom);border-radius:12px;padding:24px 28px;color:var(--branco);width:100%;max-width:360px;font-family:'SerifaStd',serif;}
+.caju-card .chip{width:40px;height:30px;background:var(--laranja);border-radius:5px;margin-bottom:24px;}
+.caju-card .card-name{font-size:13px;opacity:.6;letter-spacing:.08em;margin-bottom:4px;font-family:'VerdanaLocal',Verdana,sans-serif;}
+.caju-card .card-holder{font-size:20px;font-weight:900;}
+.caju-card .visa{font-size:12px;opacity:.5;margin-top:16px;text-align:right;letter-spacing:.08em;font-family:'VerdanaLocal',Verdana,sans-serif;}
+
+/* INFO BOX */
+.info-box{background:var(--branco);border-radius:12px;padding:28px 32px;box-shadow:0 2px 16px rgba(109,53,40,.07);margin:16px 0;}
+.info-box h4{font-family:'SerifaStd',serif;font-size:20px;font-weight:900;color:var(--marrom);margin-bottom:12px;}
+.info-box p,.info-box li{font-size:14px;line-height:1.7;color:var(--texto);opacity:.85;}
+.info-box ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
+.info-box li::before{content:'→ ';color:var(--laranja);font-weight:700;}
+
+/* TRANSPARENCY BANNER */
+.transparency{background:var(--laranja);border-radius:12px;padding:36px 40px;margin:32px 0;text-align:center;}
+.transparency h3{font-family:'SerifaStd',serif;font-size:32px;font-weight:900;color:var(--marrom);margin-bottom:12px;}
+.transparency p{font-size:15px;color:var(--marrom);opacity:.85;max-width:520px;margin:0 auto;line-height:1.65;}
+
+/* FOOTER */
+footer{background:var(--marrom);color:rgba(255,255,255,.6);text-align:center;padding:40px 24px;margin-top:80px;font-size:12px;line-height:1.8;}
+footer img{height:24px;filter:brightness(0) invert(1) opacity(.7);margin:0 auto 12px;display:block;}
+
+@media(max-width:600px){.hero{padding:56px 24px 60px;}.cat-grid{grid-template-columns:1fr 1fr;}.one-card{padding:28px;}.key-message{padding:32px 24px;}}
+</style>
+</head>
+<body>
+
+<div class="email-nav">
+  <img src="uploads/ibiobi_logotipo_1linha_principal.png" alt="ibiobi">
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-tag">ibiobi · Benefícios 2026</div>
+  <h1>Seu cartão<br><span>Caju</span><br>chegou.</h1>
+  <p class="hero-sub">Todos os seus benefícios em um único cartão. Mais praticidade, mais liberdade, mais você.</p>
+</section>
+
+<!-- KEY MESSAGE -->
+<div class="key-message">
+  <h2>Seus valores foram <span>mantidos.</span></h2>
+  <p>A mudança é no jeito de receber — mais fácil, mais moderno. Os valores dos seus benefícios continuam os mesmos.</p>
+</div>
+
+<!-- O QUE É -->
+<section id="oqe">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-eyebrow">01 — O que é o Caju</div>
+      <h2 class="section-title">Um cartão.<br>Todos os benefícios.</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="one-card">
+      <h3>Por que mudamos para o Caju?</h3>
+      <p>Antes, cada benefício exigia um cartão ou processo diferente. Com o Caju, tudo fica em um único cartão Visa — aceito em todo o Brasil — e gerenciado por um aplicativo simples no seu celular. É mais praticidade para você, é mais cuidado do ibiobi.</p>
+    </div>
+
+    <div class="card-visual">
+      <div style="font-family:'SerifaStd',serif;font-size:22px;font-weight:900;color:var(--marrom);margin-bottom:4px;">Seu cartão Caju ibiobi</div>
+      <div style="font-size:13px;color:var(--marrom);opacity:.7;margin-bottom:20px;font-family:'VerdanaLocal',Verdana,sans-serif;">Cartão físico Visa · Multi-categorias</div>
+      <div class="caju-card" style="background-color: rgb(255, 51, 3)">
+        <div class="chip"></div>
+        <div class="card-name">caju</div>
+        <div class="card-holder">Seu Nome</div>
+        <div class="visa">VISA</div>
+      </div>
+    </div>
+
+    <div class="highlight azul">
+      <p>💳 Um único cartão Visa com saldos separados por categoria. Você usa conforme o estabelecimento — restaurante usa saldo refeição, supermercado usa alimentação, etc. Automático!
+Chega de verificar rede credenciada, por ser bandeira Visa é aceito em todo estabelecimento que aceite cartão de crédito!</p>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIAS -->
+<section id="categorias">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-eyebrow">02 — Categorias de benefícios</div>
+      <h2 class="section-title">Onde você pode usar.</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="cat-grid">
+      <div class="cat-card" style="background-color: rgb(141, 198, 232)">
+        <div class="cat-emoji">🍽️</div>
+        <div class="cat-name">Refeição</div>
+        <div class="cat-desc">Restaurantes, lanchonetes, padarias, deliveries (iFood, Rappi)</div>
+      </div>
+      <div class="cat-card">
+        <div class="cat-emoji">🛒</div>
+        <div class="cat-name">Alimentação</div>
+        <div class="cat-desc">Supermercados, hipermercados, açougues, hortifruti</div>
+      </div>
+      <div class="cat-card" style="border-color: var(--laranja); background-color: rgb(141, 198, 232)">
+        <div class="cat-emoji">🚌</div>
+        <div class="cat-name">Mobilidade</div>
+        <div class="cat-desc">Transporte público, Uber, 99, combustível, bicicleta compartilhada</div>
+      </div>
+      <div class="cat-card" style="border-color:var(--laranja);">
+        <div class="cat-emoji">💊</div>
+        <div class="cat-name">Saúde</div>
+        <div class="cat-desc">Farmácias, clínicas, exames, Gympass, Zenklub, terapia</div>
+      </div>
+      <div class="cat-card" style="border-color:var(--laranja);">
+        <div class="cat-emoji">🎓</div>
+        <div class="cat-name">Educação</div>
+        <div class="cat-desc">Cursos online, faculdade, idiomas, cursos técnicos e profissionais</div>
+      </div>
+      <div class="cat-card" style="border-color:var(--laranja);">
+        <div class="cat-emoji">🎭</div>
+        <div class="cat-name">Cultura</div>
+        <div class="cat-desc">Cinema, teatro, Spotify, Netflix, livrarias, shows, museus</div>
+      </div>
+      <div class="cat-card" style="border-color:var(--laranja);">
+        <div class="cat-emoji">🏠</div>
+        <div class="cat-name">Home Office</div>
+        <div class="cat-desc">Conta de internet, energia, materiais de escritório, móveis</div>
+      </div>
+      <div class="cat-card" style="border-color:var(--marrom);">
+        <div class="cat-emoji">💳</div>
+        <div class="cat-name">Saldo Livre</div>
+        <div class="cat-desc">Qualquer estabelecimento que aceite Visa à vista — máxima flexibilidade</div>
+      </div>
+    </div>
+
+    <div class="highlight laranja">
+      <p>📌 As categorias ativas no seu cartão são definidas de acordo com a política da empresa. Não tivemos alterações nos benefícios que são disponibilizados, as categorias Refeição (se aplicável), Mobilidade ou Vale Transporte estarão disponíveis para você com os respectivos saldos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COMO USAR -->
+<section id="como">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-eyebrow">03 — Como funciona</div>
+      <h2 class="section-title">Simples assim.</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h4>Receba seu cartão</h4>
+          <p>O cartão Caju físico será entregue a você. O cartão digital fica disponível imediatamente no app. Aguarde as instruções do RH sobre entrega.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h4>Baixe o app Caju</h4>
+          <p>Busque por "Caju Benefícios" na App Store ou Google Play. Faça o cadastro com seu CPF e o e-mail cadastrado na ibiobi. Lá você vê seus saldos em tempo real.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h4>Use onde quiser</h4>
+          <p>Passe o cartão físico Visa em qualquer estabelecimento credenciado. O sistema identifica a categoria automaticamente e debita do saldo correto.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h4>Acompanhe no app</h4>
+          <p>Consulte saldo por categoria, extrato de uso, receba notificações de depósito e gerencie tudo pelo aplicativo Caju.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h4>Sobre categorias com saldo fixo</h4>
+      <p style="margin-bottom:12px;">O saldo recebido originalmente nas categorias <strong>Auxílio-alimentação, Refeição e Alimentação</strong> não podem ser transferidos para qualquer outra categoria e nem entre elas. Isso acontece para que você use o saldo para sua alimentação.</p>
+      <p style="margin-bottom:12px;">Essa regra existe para cumprir com a <strong>lei 14.442/2022</strong>, que determina a finalidade do benefício de alimentação pago pelas empresas.</p>
+    </div>
+
+    <div class="info-box">
+      <h4>Sobre o Saldo Multi (benefício flexível)</h4>
+      <p style="margin-bottom:12px;">Quando habilitado, o Saldo Multi permite usar seu benefício em até 8 categorias — saúde, mobilidade, educação, cultura, bem-estar, home office, transporte e alimentação (complementar). Você decide onde gastar pelo app.</p>
+      <ul>
+        <li>Os valores de Alimentação e Refeição são categorias separadas (seguem a lei)</li>
+        <li>O Saldo Multi não pode ser sacado</li>
+        <li>Aceito em todo lugar que aceitar Visa à vista</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- APP -->
+<section id="app">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-eyebrow">04 — App Caju</div>
+      <h2 class="section-title">Controle na palma da mão.</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="info-box" style="border-left:4px solid var(--azul);">
+      <h4>O que você faz no app:</h4>
+      <ul>
+        <li>Consultar saldo de cada categoria em tempo real</li>
+        <li>Ver extrato completo de todos os gastos</li>
+        <li>Receber notificações de depósito dos benefícios</li>
+        <li>Usar o cartão digital antes do físico chegar</li>
+        <li>Bloquear e desbloquear o cartão</li>
+        <li>Solicitar segunda via em caso de perda</li>
+        <li>Acessar a <strong>Feirinha da Caju</strong> — cupons de desconto de até 20% em marcas parceiras</li>
+        <li>Acessar o programa <strong>Vai de Visa</strong> — ofertas nacionais e internacionais</li>
+      </ul>
+    </div>
+
+    <div class="info-box">
+      <h4>🛒 Feirinha da Caju</h4>
+      <p style="margin-bottom:8px;">Economize até 20% no orçamento mensal com cupons de descontos exclusivos.</p>
+      <p style="font-size:13px;opacity:.7;"><strong>Exemplos de marcas parceiras:</strong> Sam's Club, ESPM, Coderhouse, Magalu, Shopee, Open English, Domino's, Drogaria São Paulo, Zé Delivery e mais.</p>
+    </div>
+
+    <div class="info-box">
+      <h4>🎁 Vai de Visa</h4>
+      <p style="margin-bottom:12px;">Programa de ofertas e descontos Visa. Use seu cartão Caju (que é Visa) para aproveitar.</p>
+      <ul>
+        <li>Acesse <a href="https://vaidevisa.visa.com.br/" target="_blank" style="color:var(--laranja);font-weight:700;">vaidevisa.visa.com.br</a></li>
+        <li>Crie um login e cadastre os dados do seu cartão Caju</li>
+        <li>Escolha a oferta e anote o cupom</li>
+        <li>Acesse o site do parceiro, informe o código e pague com seu Visa</li>
+        <li>Participe de sorteios exclusivos</li>
+      </ul>
+    </div>
+
+    <div class="info-box" style="background:var(--azul-light);">
+      <h4>❤️ Apoie uma causa com Visa</h4>
+      <p>Através do Vai de Visa, você pode apoiar causas e instituições beneficiadas no programa. Toda vez que você usar seu cartão Caju, a Visa fará uma doação para a instituição que você escolheu — <strong>sem custo para você</strong>.</p>
+    </div>
+
+    <div class="highlight azul">
+      <p>📲 <strong>Como baixar:</strong> procure por <strong>"Caju Benefícios"</strong> na App Store ou Google Play. Cadastre-se com seu CPF e o e-mail que você usa na ibiobi. Em caso de dúvida, o RH te ajuda.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TRANSPARÊNCIA -->
+<div class="wrapper">
+  <div class="transparency">
+    <h3>Seus valores foram mantidos.</h3>
+    <p>A ibiobi escolheu o Caju para dar mais praticidade e liberdade para você. Os valores dos seus benefícios não mudam — o que muda é só a forma de receber e usar. Simples assim.</p>
+  </div>
+</div>
+
+<!-- DÚVIDAS -->
+<section id="duvidas">
+  <div class="wrapper">
+    <div class="section-header">
+      <div class="section-eyebrow">05 — Dúvidas</div>
+      <h2 class="section-title">Tem alguma dúvida?</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="info-box">
+      <h4>Fale com o RH ibiobi</h4>
+      <p>Para dúvidas sobre categorias ativas, valores, entrega do cartão ou qualquer questão sobre seus benefícios Caju, fale direto com o RH pelo WhatsApp (11)98186-0913.</p>
+    </div>
+    
+    <div class="info-box">
+      <h4>📞 Central de Ajuda Caju</h4>
+      <p style="margin-bottom:12px;">Para problemas técnicos com o app, cartão bloqueado ou dúvidas sobre transações:</p>
+      <ul>
+        <li><strong>E-mail:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ee8187ae8d8f849bc08d8183c08c9c">[email&#160;protected]</a></li>
+        <li><strong>WhatsApp:</strong> (11) 4118-3826</li>
+        <li><strong>Chat no app</strong> Caju Benefícios</li>
+      </ul>
+      <p style="font-size:12px;opacity:.7;margin-top:12px;"><strong>Horário:</strong> Segunda a sexta: 7h às 22h · Sábados, domingos e feriados: 9h às 18h</p>
+    </div>
+
+    <div class="highlight laranja" style="margin-bottom:48px;">
+      <p>⚠️ <strong>Atenção:</strong> O cartão Caju não substitui o vale-transporte caso ele seja um benefício legal separado. Confirme com o RH ibiobi quais benefícios estão incluídos no seu cartão.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <img src="uploads/ibiobi_logotipo_1linha_branco.png" alt="ibiobi">
+  ibiobi · Cartilha de Benefícios 2026 · Caju Benefícios<br>
+  As categorias e valores disponíveis são definidos pela ibiobi. Consulte o RH para informações específicas sobre o seu perfil.
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
